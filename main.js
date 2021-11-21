@@ -81,6 +81,9 @@ function dailyDisplay(){
 	}
 }
 
+
+// function to display weekly
+
 function weeklyDisplay(){
 
 	for (i=0; i<currentText.length; i++){
@@ -91,6 +94,9 @@ function weeklyDisplay(){
 		previousText[i].innerHTML = "Last week - " + weeklyPrevious[i];
 	}
 }
+
+
+// function to display monthly
 
 function monthlyDisplay(){
 
@@ -106,7 +112,7 @@ function monthlyDisplay(){
 
 
 
-// make buttons toggle active state and trigger functions
+// make buttons toggle active state and trigger functions for timeframe display
 
 let button = document.querySelectorAll(".time-button")
 
@@ -133,8 +139,3 @@ for (i=0; i<button.length; i++) {
 
 	})
 }
-
-
-
-
-
