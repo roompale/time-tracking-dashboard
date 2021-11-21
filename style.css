@@ -239,7 +239,7 @@ img{
 	}
 
 	.profile-details{
-		height: 130px;
+		height: auto;
 		flex-direction: row;
 	}
 
