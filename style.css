@@ -243,10 +243,15 @@ img{
 		flex-direction: row;
 	}
 
+	.profile-heading{
+		margin-left: 15px;
+	}
+
 	.profile-name{
 		font-size: 25px;
 		font-weight: 300;
-		padding-bottom: 30px;
+		padding-bottom: 45px;
+		margin-left: 15px;
 	}	
 
 	.profile-time-horizon{
