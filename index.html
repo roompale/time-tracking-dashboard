@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+  <div class="background">
+    <div class="main-box">
+      <div class="profile-box">
+        <div class="profile-details">
+          <div class="image-container">
+            <div class="profile-image"><img src="images/image-jeremy.png"></div>
+          </div>
+          <div class="name-container">
+            <div class="profile-heading">Report for</div>
+            <div class="profile-name">Jeremy Robson</div>
+          </div>
+        </div>
+
+        <div class="profile-time-horizon">
+            <div class="time-button">Daily</div>
+            <div class="time-button time-active">Weekly</div>
+            <div class="time-button">Monthly</div>
+
+              
+        </div>
+
+      </div>
+
+      <div class="data-box">
+        <div class="data-card">
+          <div class="data-colour-tag tag-work"></div>
+          <div class="data-info">
+            <div class="data-info-top">
+              <div class="data-heading">Work</div>
+              <div class="kebab"><img src="images/icon-ellipsis.svg"></div>
+            </div>
+            <div class="data-info-display-container">
+              <div class="data-info-current"><span id="current"></span>hrs</div>
+              <div class="data-info-previous"><span id="previous"></span>hrs</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="data-card">
+          <div class="data-colour-tag tag-play"></div>
+          <div class="data-info">
+            <div class="data-info-top">
+              <div class="data-heading">Play</div>
+              <div class="kebab"><img src="images/icon-ellipsis.svg"></div>
+            </div>
+            <div class="data-info-display-container">
+              <div class="data-info-current"><span id="current"></span>hrs</div>
+              <div class="data-info-previous"><span id="previous"></span>hrs</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="data-card">
+          <div class="data-colour-tag tag-study"></div>
+          <div class="data-info">
+            <div class="data-info-top">
+              <div class="data-heading">Study</div>
+              <div class="kebab"><img src="images/icon-ellipsis.svg"></div>
+            </div>
+            <div class="data-info-display-container">
+              <div class="data-info-current"><span id="current"></span>hrs</div>
+              <div class="data-info-previous"><span id="previous"></span>hrs</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="data-card">
+          <div class="data-colour-tag tag-exercise"></div>
+          <div class="data-info">
+            <div class="data-info-top">
+              <div class="data-heading">Exercise</div>
+              <div class="kebab"><img src="images/icon-ellipsis.svg"></div>
+            </div>
+            <div class="data-info-display-container">
+              <div class="data-info-current"><span id="current"></span>hrs</div>
+              <div class="data-info-previous"><span id="previous"></span>hrs</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="data-card">
+          <div class="data-colour-tag tag-social"></div>
+          <div class="data-info">
+            <div class="data-info-top">
+              <div class="data-heading">Social</div>
+              <div class="kebab"><img src="images/icon-ellipsis.svg"></div>
+            </div>
+            <div class="data-info-display-container">
+              <div class="data-info-current"><span id="current"></span>hrs</div>
+              <div class="data-info-previous"><span id="previous"></span>hrs</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="data-card">
+          <div class="data-colour-tag tag-selfcare"></div>
+          <div class="data-info">
+            <div class="data-info-top">
+              <div class="data-heading">Self Care</div>
+              <div class="kebab"><img src="images/icon-ellipsis.svg"></div>
+            </div>
+            <div class="data-info-display-container">
+              <div class="data-info-current"><span id="current"></span>hrs</div>
+              <div class="data-info-previous"><span id="previous"></span>hrs</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
