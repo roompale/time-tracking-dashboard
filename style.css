@@ -282,4 +282,8 @@ img{
 		font-size: 32px;
 		margin: 0;
 	}
+	
+	.data-info-previous{
+		margin-top: 0px;
+	}
 }
